@@ -1,3 +1,4 @@
+board = ["X", " ", " ", " ", " ", " ", " ", " ", "O"]
 
 def position_taken?(board,index)
   if(board[index]==" "||""||nil)
@@ -6,3 +7,4 @@ def position_taken?(board,index)
     true;
   end
 end
+
